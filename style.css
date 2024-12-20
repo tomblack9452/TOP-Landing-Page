@@ -1,0 +1,171 @@
+/* Class that limits content to 1200px and centers it on the page separately from the background color */
+.inside {
+  margin: 0 auto;
+  width: 960px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  font-weight: 600;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+  background-color: #5194ff;
+}
+
+button:active {
+  background-color: #196ef7;
+  outline: 1px rgb(172, 172, 172) solid;
+}
+
+/* Header */
+header {
+  background-color: #1f2937;
+}
+
+.header-wrapper {
+  padding: 16px 0;
+}
+
+header .logo {
+  display: inline;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+}
+
+header .links {
+  display: inline;
+}
+
+header .links a {
+  margin-left: 16px;
+  vertical-align: middle;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+header .links a:hover {
+  color: #aeafb3;
+}
+
+/* Hero section */
+
+.hero {
+  background-color: #1f2937;
+  padding: 96px 0;
+}
+
+.hero-wrapper {
+  gap: 16px;
+
+  .container {
+    flex: 1;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+  p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .img {
+    background: red;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #aeafb3;
+  }
+}
+
+/* Info section */
+
+.info {
+  background-color: white;
+  margin: 32px 0;
+  text-align: center;
+}
+
+.cardcontainer {
+  margin-top: 16px;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 150px;
+}
+
+.cardbox {
+  outline: 2px blue solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Quote section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 72px;
+}
+
+.quote-text {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote-tag {
+  margin: 0;
+  float: right;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* Signup section */
+
+.signup-wrapper {
+  width: 960px;
+  margin: 96px auto;
+  padding: 32px 96px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-text {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.signup-button {
+  outline: 2px white solid;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
